@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="/Javascript/rpsusingfunction.js"></script>
+</head>
+<body>
+    <p>Rock Paper Scrissors</p>
+    <button onclick="
+        const playerMove = 'Rock';
+        pickComputerMove();
+        //if random number is between 0 - 1/3: rock, 1/3 - 2/3: paper, 2/3 - 1: scissors
+        if(computerMove === 'Rock'){
+            alert(`You picked ${playerMove} and computer pick ${computerMove}: You Draw`);
+        }else if(computerMove === 'Paper'){
+            alert(`You picked ${playerMove} and computer pick ${computerMove}: You Draw`);
+        }else{
+            alert(`You picked ${playerMove} and computer pick ${computerMove}: You Draw`);
+        }
+    ">Rock</button>
+    <button onclick="
+        const RANDOM_NUMBER1 = Math.random();
+        if(computerMove === 'Rock'){
+            alert(`You picked ${playerMove} and computer pick ${computerMove}: You Draw`);
+        }else if(computerMove === 'Paper'){
+            alert(`You picked ${playerMove} and computer pick ${computerMove}: You Draw`);
+        }else{
+            alert(`You picked ${playerMove} and computer pick ${computerMove}: You Draw`);
+        }
+    ">Paper</button>
+    <button onclick="
+        const RANDOM_NUMBER2 = Math.random();
+        if(computerMove === 'Rock'){
+            alert(`You picked ${playerMove} and computer pick ${computerMove}: You Draw`);
+        }else if(computerMove === 'Paper'){
+            alert(`You picked ${playerMove} and computer pick ${computerMove}: You Draw`);
+        }else{
+            alert(`You picked ${playerMove} and computer pick ${computerMove}: You Draw`);
+        }
+    ">Scissors</button>
+</body>
+</html>

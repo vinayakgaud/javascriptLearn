@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <a href="main.css" rel="stylesheet"></a>
+</head>
+<body>
+    <!-- css grid , grid make alignment better, leaves no space between two div and scale vertically and horizontally for all 
+    the columns
+        if we have more div then the mentioned number it creates new row
+    -->
+    <div style="display: grid;
+        /* below attribute tells how many column ex 2 column and of what width */
+        grid-template-columns: 150px 150px;
+        column-gap: 10px;
+        row-gap: 10px;
+    ">
+        <div style="background-color: rgb(0, 136, 255);">This is paragraph</div>
+        <div style="background-color: rgb(217, 16, 16);">This is button 22</div> 
+        <div style="background-color: rgb(0, 136, 255);">This is row 2</div> 
+        <div style="background-color: rgb(217, 16, 16);">This is row 2 button</div>    
+    </div>
+    <div style="display: grid;
+        /* below attribute tells how many column ex 2 column and of what width */
+        grid-template-columns: 150px 1fr 1fr 2fr; 
+        column-gap: 10px;
+        row-gap: 10px;
+        /*it will give equal space for 2nd and 3rd column, 4th column will have
+        twice the size or other fr  column*/
+        /*fr stands for free space means take remaining free space
+        number tells how much space, 1 or 2
+        */
+    ">
+        <div style="background-color: rgb(0, 136, 255);">This is paragraph</div>
+        <div style="background-color: rgb(217, 16, 16);">This is button 22 free space</div> 
+        <div style="background-color: rgb(0, 136, 255);">This is row 2</div> 
+        <div style="background-color: rgb(217, 16, 16);">This is row 2 button free space</div>   
+    </div>
+    <!-- it is flexible box -->
+    <div style="
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+    ">
+        <div style="background-color: rgb(0, 136, 255); width: 100px;">This is paragraph</div>
+        <div style="background-color: rgb(217, 16, 16); width: 100px;">This is button</div> 
+        <div style="background-color: rgb(0, 136, 255); width: 100px;">This is paragraph</div>
+        <div style="background-color: rgb(217, 16, 16); width: 100px;">This is button</div> <!--flex 1 is 
+        equivalent to 1fr in grid-->
+    </div>
+</body>
+</html>
