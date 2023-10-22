@@ -1,4 +1,4 @@
-this is for basic js functionalities
+**this is for basic js functionalities
 
 we have window object which is global scoped so instead of using 
 window.alert("hello");
@@ -12,3 +12,4 @@ var is function scoped, variable created using var inside function is not accesi
 global variable created using bar gets added to window object
 
 hoisting is collecting function declarations and variables at top so that we can call function first before and declare it after, it doesn't work with function expression it will error that initialize the fucntion first
+**
