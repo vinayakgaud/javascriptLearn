@@ -21,4 +21,6 @@ document.forms[0].method = 'post'
 
 //we can change href and className
 //classList is the method to fetch of classes
-console.log(document.images);
+console.log(document.images); //fetches collection of images
+//forEach doesn't work on these collections, we need to use Array.from() method to convert it to array and then use it
+//the collection we get from querySelector is node list and we can use forEach on it
