@@ -56,3 +56,28 @@ document.querySelectorAll('li').forEach((item, index)=>{
     }
 })
 
+//getElementsByClassName()
+//getElementsByTagName()
+//we have propertyto access childs
+//document.querySelector('parent).children; will fetch all children in HTML collection
+//we can apply style or other properties on it
+//parent.firstElementChild; to fetch the first child 
+//parent.lastElementChild; to fetch the last child 
+//child.parentElement; to fetch the parent we can apply other properties to it also
+//sibling elements
+//child.nextElementSibling; to fetch next sibling
+//child.previousElementSibling; to fetch previous sibling
+
+
+//All nodes of DOM
+//node method will work on all types of node but element method will work on element node only
+//parent.childNodes; to fetch all the children nodes
+//parent.childNodes[0].textContent; - to get the textContent
+//parent.childNodes[0].nodeName; - to get the node name #text
+//parent.childNodes[3].textContent; - to get the textContent 
+//parent.childNodes[3].outerHTML; - to get the outer HTML that surrounds this node
+//parent.firstChild; to fetch first child,. .lastChild; to fetch last child
+// suppose after parent div we have comments, then using first method of element it will not count that comment as child
+//but in node method it will consider comment as child and all other nodes also will be considered
+//parentNode, nextSibling, previousSibling - some of the node properties
+//we can use console.dir to check what all properties are associated with that element
