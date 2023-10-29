@@ -30,6 +30,15 @@
             placeholder="Enter Item"
           />
         </div>
+        <div>
+          <!-- <select name="priority" id="priority-input" class="form-input">
+            <option value="0">Select Priority</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <input type="checkbox" name="checkbox" id="checkbox" /> Recurring item -->
         <div class="form-control">
           <button type="submit" class="btn">
             <i class="fa-solid fa-plus"></i> Add Item
@@ -45,7 +54,6 @@
           placeholder="Filter Items"
         />
       </div>
-
       <ul id="item-list" class="items">
         <li>
           Apples
@@ -76,6 +84,6 @@
       <button id="clear" class="btn-clear">Clear All</button>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script> <!-- use defer when js is added to head to wait for DOM to load-->
   </body>
 </html>
