@@ -107,6 +107,9 @@ header h1 {
   display: flex;
   flex-wrap: wrap;
 }
+.dark{
+  background-color: #444;
+}
 
 .items li {
   display: flex;
