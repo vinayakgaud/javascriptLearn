@@ -11,7 +11,7 @@
 
 // console.log(person);
 
-// //declaring multiple var at once
+//declaring multiple var at once
 // let a, b, c;
 // const d = 10, e = 20, f = 30;
 
@@ -55,7 +55,7 @@
 // const s = 'Hello World';
 
 // console.log(s.length);
-// //charat
+//charat
 // console.log(s[0]);
 // console.log(s.charAt(1));
 
@@ -134,25 +134,25 @@ const n = 5.467;
 
 // console.log(new Array('h','e','l'));
 // const arr = [10,20,40,50];
-// // console.log(arr);
-// // arr.push(20);
-// // console.log(arr);
-// // arr.pop();
-// // console.log(arr);
-// // arr.unshift(30);
-// // console.log(arr);
-// // arr.shift();
-// // console.log(arr);
-// // arr.reverse();
-// // console.log(arr);
-// // arr.sort()
-// // console.log(arr);
+// console.log(arr);
+// arr.push(20);
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.unshift(30);
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
+// arr.reverse();
+// console.log(arr);
+// arr.sort()
+// console.log(arr);
 // const arr2 = [40,4534,343];
-// // arr.push(arr2);
-// // console.log(arr);
-// // console.log(arr[4][1]);
+// arr.push(arr2);
+// console.log(arr);
+// console.log(arr[4][1]);
 
-// // console.log(arr.concat(arr2));
+// console.log(arr.concat(arr2));
 
 // const allNumber = [arr,arr2];
 // console.log(allNumber);
