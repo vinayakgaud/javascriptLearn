@@ -1,0 +1,14 @@
+[
+    {
+        "title":"First Data",
+        "author":"v1n",
+        "number":20,
+        "bool":true
+    },
+    {
+        "title":"Second Data",
+        "author":"vinayak",
+        "number":50,
+        "bool":false
+    }
+]
