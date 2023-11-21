@@ -1,7 +1,7 @@
 //working with HTTP Requests to demonstrate asynchronous execution
 //we make HTTP request to get data from server or DB we make request to API endpoint
 const request = new XMLHttpRequest(); //making network request for API, this is old way inbuilt JS , it is for AJAX, now we use fetch API
-//adding eventlistener to reques tot inform us for any response received
+//adding eventlistener to request to inform us for any response received
 request.addEventListener('readystatechange',()=>{
     // console.log(request, request.readyState); //will log us request status and request ready status
     //we need to use response on ready state 4, we cannot use any other states
