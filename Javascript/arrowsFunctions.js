@@ -44,3 +44,34 @@ arr1.forEach(function(n){
 });
 //arrow function
 arr1.forEach(n=>console.log(n))
+
+//** https://stackoverflow.com/questions/58701422/arrow-function-with-square-brackets
+//we can use arrow function with [] brackets, basically indicates that function will return array, it is for shortcut
+//**export const doSomething = () => [ someFunction(), bind(stuff, stuff, stuff) ]; 
+/**
+ * This code means that your function doSomething returns an array when
+
+//**[0] element - the result of execution of function someFunction() and
+
+//**[1] element - the result of execution of function bind(stuff, stuff, stuff).
+
+This is a shortcut for:
+
+//**export const doSomething = () => {
+//**    return [ someFunction(), bind(stuff, stuff, stuff) ]
+//**}; 
+
+But be careful if you want to make a shortcut for returning objects. You have to wrap objects in parentheses (), like this:
+
+//**export const doSomething = () => ({ name: 'John' }).
+ */
+/**
+
+It's just returning an array.
+
+You might use it with a destructuring assign e.g.
+
+//**const [someResult, boundStuff] = doSomething()
+Or just like any old function e.g.
+
+//**const something = doSomething() */
