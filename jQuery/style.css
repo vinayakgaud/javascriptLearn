@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #111;
+    color: #fff;
+} 
+
+.big-title{
+    font-size: 10rem;
+    color: blue;
+    font-family: cursive;
+}
+
+.margin-50{
+    margin: 200px;
+}
