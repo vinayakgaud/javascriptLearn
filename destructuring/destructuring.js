@@ -110,3 +110,13 @@ const val3 = arr[2]
 
  const {[rando]: myKey} = obj2
  console.log(myKey) //op - 23
+
+ //we can also do something like this
+let name = "Duke"; 
+let color = "Brown"; 
+let age = 5; 
+  
+// Using Object Literal Enhancement 
+// Combines all variables into a dog object 
+var dog = {name, color, age}; 
+console.log(dog); //{ name: 'Duke', color: 'Brown', age: 5 }
