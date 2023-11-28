@@ -1,0 +1,9 @@
+css pseudo class: https://www.youtube.com/watch?v=kpXKwDGtjGE
+
+css variables: https://www.youtube.com/watch?v=NtRmIp4eMjs
+
+css animations: https://www.youtube.com/watch?v=HZHHBwzmJLk
+
+css calculate all values from start to end for every animation is called as tween/ in between animtion
+
+bezier curve
